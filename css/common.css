@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+:root {
+    --main-font : 'Arita-dotum';
+    --sub-font : 'Philosopher';
+    --main-color : #a89079;
+    --sub-color : #758246; 
+    --hover-color : #67625e; 
+}
+
+body {color:#000; line-height: 1.5; font-size:1.6rem; font-family: 'Philosopher','Arita-dotum',sans-serif; }
+
+.inner { max-width: 1700px; padding: 0 5%; margin:0 auto; }
+
+/* header */
+#header {padding:10px 0; }
+#header .inner {display:flex; justify-content: space-between; align-items: flex-end; }
+#header .gnb {display:flex; }
+#header .gnb > li > a {display:block; padding: 10px 40px; font-size:2rem; }
+#header .util {display:flex; gap:20px; align-items: center; }
+#header .util img {width:24px; }
